@@ -33,6 +33,27 @@ Made changes to the web scraper (link above!) to fetch the following features fo
 - Revenue
 - Competitors
 
+## Data Cleaning
+
+- Filtered out null values from the dataset.
+- Created seperate columns for hourly paid salary and Employee Provided values.
+- Data Parsing on Salary column.
+- Added calculated fields for Min,Max and Average salary.
+- Created a field to check if the state where job offered is same as the headquarters.
+- Added a field to find Company's age.
+- Made multiple columns to see if the skills mentioned below are mentioned in the Job Description
+  - Python
+  - R
+  - AWS
+  - Spark
+  - Excel
+
 ## Exploratory Data Analysis
+
+## Model Building
+
+## Model Performance evaluation
+
+## Productionizing
 
 
