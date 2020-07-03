@@ -50,7 +50,19 @@ Made changes to the web scraper (link above!) to fetch the following features fo
 
 ## Exploratory Data Analysis
 
+I looked at data distributions and below are some of the highlighting insights from the data :
+
+![Correlation](correlation.png)
+![Average Salary by Designation](salary_by_job_title.PNG)
+![Positions in each state](positions_by_state.png)
+
 ## Model Building
+
+First I transformed varaibles into dummy variables. Then, I split the data into train and test datasets with test size of 20%. I tried three different models and evaluated them through Mean Absolute Error.
+
+**Multiple Linear Regression** Baseline for the model
+**Lasso Regression** Used this model because of sparse data from many categorical variables.
+**Random Forest** Again because of sparsity, I considered this to be a good fit.
 
 ## Model Performance evaluation
 
