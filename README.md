@@ -65,8 +65,12 @@ First I transformed varaibles into dummy variables. Then, I split the data into 
 - **Random Forest** Again because of sparsity, I considered this to be a good fit.
 
 ## Model Performance evaluation
+The **Random Forest Model** outperformed amongst all the models used.
 
+- **Random Forest** : Mean Absolute Error -  14.89
+- **Multiple Linear Regression** : Mean Absolute Error - 20.77
+- **Lasso Regression** : Mean Absolute Error - 21.09
 
 ## Productionizing
 
-
+For this, I built a Flask API endpoint which was built on a localserver. This API endpoint takes in a request of list of values and returns an estimated salary.
