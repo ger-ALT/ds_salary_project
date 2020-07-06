@@ -60,11 +60,12 @@ I looked at data distributions and below are some of the highlighting insights f
 
 First I transformed varaibles into dummy variables. Then, I split the data into train and test datasets with test size of 20%. I tried three different models and evaluated them through Mean Absolute Error.
 
-**Multiple Linear Regression** Baseline for the model
-**Lasso Regression** Used this model because of sparse data from many categorical variables.
-**Random Forest** Again because of sparsity, I considered this to be a good fit.
+- **Multiple Linear Regression** Baseline for the model
+- **Lasso Regression** Used this model because of sparse data from many categorical variables.
+- **Random Forest** Again because of sparsity, I considered this to be a good fit.
 
 ## Model Performance evaluation
+
 
 ## Productionizing
 
