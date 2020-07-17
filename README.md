@@ -1,7 +1,7 @@
  # Data Science Salary Prediction 
  
 ## Project Overview
-- Predicted Data Science salaries (with MAE $ 14k) whiich may help data scientists to understand the job market and negotiate their salaries accordingly.
+- Predicted Data Science salaries (with MAE $ 14k) which may help data scientists to understand the job market and negotiate their salaries accordingly.
 - Used a Web Scraper to scrape over 1000 jobs (for US as India's Glassdoor page doesn't post salaries) using Python and Selenium.
 - Feature engineering for Job text fields(description) in order to quantify the values they put on skills like Python,R,Excel,AWS and Spark.
 - Optimized Linear,Lasso,RandomForest models through GridSearchCV in order to yield the best model.
